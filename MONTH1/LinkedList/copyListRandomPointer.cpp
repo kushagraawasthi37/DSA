@@ -1,70 +1,191 @@
 #include <bits/stdc++.h>
 using namespace std;
-class node
-{
-public:
-    int data;
-    node *next;
-    node *random;
 
-    node(int val)
+// Definition of singly linked list
+struct ListNode
+{
+    int val;
+    ListNode *next;
+    ListNode *random;
+    ListNode()
     {
-        data = val;
+        val = 0;
         next = NULL;
+        random = NULL;
+    }
+    ListNode(int data1)
+    {
+        val = data1;
+        next = NULL;
+        random = NULL;
+    }
+    ListNode(int data1, ListNode *next1, ListNode *r)
+    {
+        val = data1;
+        next = next1;
+        random = r;
     }
 };
 
-class List
+class Solution
 {
-    node *head;
-    node *tail;
-
 public:
-    List()
+    // Function to clone the linked list
+    ListNode *copyRandomList(ListNode *head)
     {
-        head = tail = NULL;
+        // If the original list is empty, return null
+        if (!head)
+            return nullptr;
+
+        // Insert nodes in between
+        ListNode *temp = head;
+        while (temp != NULL)
+        {
+            ListNode *nextElement = temp->next;
+            // Create a new node with the same data
+            ListNode *copy = new ListNode(temp->val);
+            copy->next = nextElement;
+            temp->next = copy;
+            temp = nextElement;
+        }
+
+        temp = head;
+        // Linking the random pointer
+        while (temp != NULL)
+        {
+            // Access the copied node
+            ListNode *copyNode = temp->next;
+
+            if (temp->random)
+            {
+                copyNode->random = temp->random->next;
+            }
+            else
+            {
+                copyNode->random = NULL;
+            }
+
+            // Move to next original node
+            temp = temp->next->next;
+        }
+
+        temp = head;
+        ListNode *dummyNode = new ListNode(-1);
+        ListNode *res = dummyNode;
+
+        while (temp != NULL)
+        {
+
+            res->next = temp->next;
+            res = res->next;
+
+            // Relinking the original and copied list
+            temp->next = temp->next->next;
+            temp = temp->next;
+        }
+
+        return dummyNode->next;
     }
-
-    node *copyListWithRandomPointer()
+    ListNode *copyRandomListMap(ListNode *head)
     {
-        if (head == NULL)
+
+        unordered_map<ListNode *, ListNode *> mpp;
+        ListNode *temp = head;
+
+        // creating the node with cpy node mapping
+        while (temp)
         {
-            return NULL;
-        }
-        unordered_map<node *, node *> m;
-
-        // Create a Copy of List
-        node *newHead = new node(head->data);
-        node *oldTemp = head->next;
-        node *newTemp = newHead;
-
-        m[head] = newHead;
-
-        while (oldTemp != NULL)
-        {
-            node *copyNode = new node(oldTemp->data);
-            // Map mai bhi Insert kr rhe hai
-            m[oldTemp] = copyNode;
-            newTemp->next = copyNode;
-            oldTemp = oldTemp->next;
-            newTemp = newTemp->next;
+            ListNode *newNode = new ListNode(temp->val);
+            mpp[temp] = newNode;
+            temp = temp->next;
         }
 
-        // Copy Linked List ban gyi aab random par point karna hai
-
-        oldTemp = head;
-        newTemp = newHead;
-
-        while (oldTemp != NULL)
+        temp = head;
+        while (temp)
         {
-            newTemp->random = m[oldTemp->random];
-            oldTemp = oldTemp->next;
-            newTemp = newTemp->next;
+            ListNode *copyNode = mpp[temp];
+            copyNode->next = mpp[temp->next];
+            copyNode->random = mpp[temp->random];
+            temp = temp->next;
         }
-        return newHead;
+
+        return mpp[head];
     }
 };
+
+/*
+Definition of singly linked list:
+struct ListNode
+{
+    int val;
+    ListNode *next;
+    ListNode *random;
+    ListNode()
+    {
+        val = 0;
+        next = NULL;
+        random = NULL;
+    }
+    ListNode(int data1)
+    {
+        val = data1;
+        next = NULL;
+        random = NULL;
+    }
+    ListNode(int data1, ListNode *next1, ListNode* r)
+    {
+        val = data1;
+        next = next1;
+        random = r;
+    }
+};
+*/
+
+// Function to print the cloned linked list
+void printClonedLinkedList(ListNode *head)
+{
+    while (head != nullptr)
+    {
+        cout << "Data: " << head->val;
+        if (head->random != nullptr)
+        {
+            cout << ", Random: " << head->random->val;
+        }
+        else
+        {
+            cout << ", Random: nullptr";
+        }
+        cout << endl;
+        // Move to the next node
+        head = head->next;
+    }
+}
+
 int main()
 {
+    // Example linked list: 7 -> 14 -> 21 -> 28
+    ListNode *head = new ListNode(7);
+    head->next = new ListNode(14);
+    head->next->next = new ListNode(21);
+    head->next->next->next = new ListNode(28);
+
+    // Assigning random pointers
+    head->random = head->next->next;                   // 7 -> 21
+    head->next->random = head;                         // 14 -> 7
+    head->next->next->random = head->next->next->next; // 21 -> 28
+    head->next->next->next->random = head->next;       // 28 -> 14
+
+    // Print the original linked list
+    cout << "Original Linked List with Random Pointers:" << endl;
+    printClonedLinkedList(head);
+
+    // Clone the linked list
+    Solution solution;
+    ListNode *clonedList = solution.copyRandomList(head);
+
+    // Print the cloned linked list
+    cout << "\nCloned Linked List with Random Pointers:" << endl;
+    printClonedLinkedList(clonedList);
+
     return 0;
 }
