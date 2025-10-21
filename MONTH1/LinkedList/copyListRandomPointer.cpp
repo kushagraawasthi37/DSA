@@ -113,33 +113,6 @@ public:
     }
 };
 
-/*
-Definition of singly linked list:
-struct ListNode
-{
-    int val;
-    ListNode *next;
-    ListNode *random;
-    ListNode()
-    {
-        val = 0;
-        next = NULL;
-        random = NULL;
-    }
-    ListNode(int data1)
-    {
-        val = data1;
-        next = NULL;
-        random = NULL;
-    }
-    ListNode(int data1, ListNode *next1, ListNode* r)
-    {
-        val = data1;
-        next = next1;
-        random = r;
-    }
-};
-*/
 
 // Function to print the cloned linked list
 void printClonedLinkedList(ListNode *head)
