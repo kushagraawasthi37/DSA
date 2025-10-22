@@ -22,47 +22,29 @@ private:
     subarrays with sum less than or equal to `goal`*/
     int numSubarraysWithSumLessEqualToGoal(vector<int> &nums, int goal)
     {
-
-        /* If goal is negative, there
-        can't be any valid subarray sum*/
         if (goal < 0)
+        {
             return 0;
+        }
 
-        // Pointers to maintain the current window
-        int l = 0, r = 0;
-
-        /* Variable to track the current
-        sum of elements in the window*/
-        int sum = 0;
-
-        // Variable to count the number of subarrays
+        int l = 0;
+        int r = 0;
         int count = 0;
-
-        /* Iterate through the array
-        using the right pointer `r`*/
-        while (r < nums.size())
+        int sum = 0;
+        int n = nums.size();
+        while (r < n)
         {
             sum += nums[r];
 
-            /* Shrink the window from the left
-            side if the sum exceeds `goal`*/
             while (sum > goal)
             {
                 sum -= nums[l];
-
-                // Move the left pointer `l` forward
                 l++;
             }
-
-            /* Count all subarrays ending at
-            `r` that satisfy the sum condition*/
-            count += (r - l + 1);
-
-            // Move the right pointer `r` forward
+            count = count + r - l + 1;
             r++;
         }
 
-        // Return the total count of subarrays
         return count;
     }
 };
