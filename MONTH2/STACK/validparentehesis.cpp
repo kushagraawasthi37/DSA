@@ -5,49 +5,65 @@
 #include <stack>
 using namespace std;
 
-bool validParenthesis(string str)
+class Solution
 {
-    // Valid condition => last opening bracket = first closing bracket
-    stack<char> st;
-
-    for (int i = 0; i < str.length(); i++)
+public:
+    bool isValid(string str)
     {
-        // Opening character
-        if (str[i] == '(' || str[i] == '{' || str[i] == '[')
-        {
-            st.push(str[i]);
-        }
+        stack<char> s;
+        int r = 0;
+        int n = str.length();
 
-        // Closing character
-        else
+        while (r < n)
         {
-            // More closing brackets than opening brackets
-            if (st.empty())
+            if (str[r] == '(' || str[r] == '{' || str[r] == '[')
             {
-                return false;
-            }
-
-            // Check if the closing bracket matches the top of the stack
-            if ((st.top() == '(' && str[i] == ')') ||
-                (st.top() == '{' && str[i] == '}') ||
-                (st.top() == '[' && str[i] == ']'))
-            {
-                st.pop();
+                s.push(str[r]);
+                r++;
             }
             else
             {
-                return false; // If no match, return false
+                if (!s.empty())
+                {
+                    if (str[r] == ')' && s.top() == '(' ||
+                        str[r] == ']' && s.top() == '[' ||
+                        str[r] == '}' && s.top() == '{')
+                    {
+                        s.pop();
+                        r++;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+                else
+                {
+                    return false;
+                }
             }
         }
-    }
 
-    // If stack is empty at the end, it means parentheses are balanced
-    return st.empty();
-}
+        return s.empty();
+    }
+};
 
 int main()
 {
-    string str = "{(())}";
-    cout << validParenthesis(str); // Output should be 1 (true) for valid parentheses
+    string str = "()[{}()]";
+
+    /* Creating an instance of
+    Solution class */
+    Solution sol;
+
+    /* Function call to check if the
+    string is valid */
+    bool ans = sol.isValid(str);
+
+    if (ans)
+        cout << "The given string is valid.";
+    else
+        cout << "The given string is invalid.";
+
     return 0;
 }
