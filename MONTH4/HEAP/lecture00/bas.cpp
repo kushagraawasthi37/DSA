@@ -226,7 +226,7 @@ int main()
 
     // STL FOR MINHEAP AND MAX HEAP INCLUDE  QUEUE HEADER FILE
 
-    // Max Heap by default maxHeap banega
+    // Max Heap: by default maxHeap banega
     priority_queue<int> maxheap;
     maxheap.push(4);
     maxheap.push(2);

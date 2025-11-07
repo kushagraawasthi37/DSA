@@ -42,34 +42,25 @@ vector<int> zigZagTraversal(node *root)
     vector<int> result;
 
     if (root == NULL)
-    {
         return result;
-    }
 
     queue<node *> q;
     q.push(root);
 
-    bool leftToRight = false;
+    bool leftToRight = true; // ✅ Start left to right
 
     while (!q.empty())
     {
         int size = q.size();
         vector<int> ans(size);
 
-        // LEVEL-WISE PROCESS
-
+        // Level-wise traversal
         for (int i = 0; i < size; i++)
         {
             node *frontnode = q.front();
             q.pop();
 
-            int index;
-
-            if (leftToRight == true)
-                index = i;
-            else
-                index = size - i - 1;
-
+            int index = leftToRight ? i : size - i - 1;
             ans[index] = frontnode->data;
 
             if (frontnode->left)
@@ -79,12 +70,13 @@ vector<int> zigZagTraversal(node *root)
                 q.push(frontnode->right);
         }
 
-        // REVERSE THE DIRECTION
+        // Flip direction
         leftToRight = !leftToRight;
 
         for (auto i : ans)
             result.push_back(i);
     }
+
     return result;
 }
 

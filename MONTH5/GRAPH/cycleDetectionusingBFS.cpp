@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-/**************Cycle detection using BFS****************/
+/**************Cycle detection using BFS in directed graph****************/
 
 // If valid topological order using kahns algorithm then no cycle present
 

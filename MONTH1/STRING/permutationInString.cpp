@@ -18,7 +18,7 @@ bool permutationInString(string s, string str)
         return false;
     }
 
-    // frequency store in array if same type character otheerwise we use map instead of array
+    // frequency store in array if same type character otherwise we use map instead of array
     int freq[26] = {0};
     for (int i = 0; i < s.length(); i++)
     {

@@ -23,7 +23,7 @@ void flattenBinaryTree(node *root)
     {
         if (current->left)
         {
-            // Find predecissior
+            // Find predecizssior
             node *pred = current->left;
             while (pred->right)
             {

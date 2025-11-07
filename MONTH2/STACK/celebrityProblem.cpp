@@ -59,7 +59,7 @@ int celebrityProblem(vector<vector<int>> &person)
         }
     }
 
-    int cele = s.top();
+    int cele = s.top();//Potential celebrity
     for (int i = 0; i < n; i++)
     {
         if ((i != cele) && (person[cele][i] == 1 || person[i][cele] == 0))

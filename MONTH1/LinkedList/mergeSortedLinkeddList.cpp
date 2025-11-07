@@ -98,6 +98,7 @@ public:
         {
             return list2;
         }
+        
         ListNode *dummy = new ListNode(-1);
         ListNode *temp = dummy;
         ListNode *temp1 = list1;
