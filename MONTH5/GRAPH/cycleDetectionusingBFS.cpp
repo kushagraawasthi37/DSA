@@ -48,7 +48,7 @@ int detectCycleInDirectedGraph(int n, vector<pair<int, int>> &edges)
         int front = q.front();
         q.pop();
 
-        // Increment count
+       // // Increment count
         count++;
 
         for (auto neighbour : adj[front])

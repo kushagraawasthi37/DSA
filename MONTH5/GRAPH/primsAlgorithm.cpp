@@ -59,7 +59,7 @@ vector<pair<pair<int, int>, int>> minimumSpanningTree(int n, vector<pair<pair<in
         // Mark minimum node as true mean included in MinimumSpanning Tree
         minimumSpanningTreeNode[minimumNode] = true;
 
-        // check its adjacent node
+      //  // check its adjacent node
         for (auto neighbour : adj[minimumNode])
         {
             int v = neighbour.first;

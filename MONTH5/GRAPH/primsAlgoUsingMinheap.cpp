@@ -56,6 +56,7 @@ vector<pair<pair<int, int>, int>> minimumSpanningTree(int n, vector<pair<pair<in
             }
         }
     }
+    //
     // Prepare MST result
     vector<pair<pair<int, int>, int>> result;
     for (int i = 0; i < n; i++)

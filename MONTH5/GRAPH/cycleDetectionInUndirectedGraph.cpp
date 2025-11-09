@@ -66,7 +66,7 @@ string cycleDetectionBFS(vector<vector<int>> &edges, int n)
     return "No cycle exists (BFS)";
 }
 
-// ---------------- DFS Cycle Detection ---------------- //
+// --//-------------- DFS Cycle Detection ---------------- //
 
 bool isCyclicDFS(int node, int parent, unordered_map<int, list<int>> &adjList, unordered_map<int, bool> &visited)
 {

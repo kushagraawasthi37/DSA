@@ -28,7 +28,7 @@ vector<int> dijkstra(vector<vector<int>> &vec, int n, int edges, int src)
     // Create distance Vector
     vector<int> distance(n, INT32_MAX);
 
-    // We can use set or minheap for minimmum distance
+    //// We can use set or minheap for minimmum distance
 
     // Creation of set on basis (distance,node)
     set<pair<int /*Distance*/, int /*Node*/>> st;

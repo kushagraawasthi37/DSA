@@ -2,7 +2,7 @@
 using namespace std;
 /*
 Strongly connected Component ->wo component hote hai jisme kisi bhi node se start karo sab node tak pahuch jao
-for Strongly Connected Component use use kosarajus algorithm
+for Strongly Connected Component use kosarajus algorithm
 
 Kosaraju's Algorithm for Strongly Connected Components (SCC)
 1. Do DFS and push nodes in stack according to finishing time (Topo sort)

@@ -30,7 +30,7 @@ vector<vector<int>> depthSearchFirst(int node, int e, vector<vector<int>> &edges
         adjList[v].push_back(u); // Unordered Graph
     }
 
-    // Track of visited or not
+    // //Track of visited or not
     unordered_map<int, bool> visited;
 
     // Call DFS for all node if not visited and loop for broken component

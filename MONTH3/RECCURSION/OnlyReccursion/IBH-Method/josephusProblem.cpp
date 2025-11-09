@@ -13,7 +13,7 @@ int solve(vector<int> arr, int k, int startingPos)
     int dangerPos = startingPos;
     arr.erase(arr.begin() + dangerPos); // DangerPos par jake us element ko delete kar dega aur baki element ko shift kar dega next time counting dangerous postion se start hogi
 
-    return solve(arr, k, startingPos);
+    return solve(arr, k, startingPos % arr.size());
 }
 
 int main()

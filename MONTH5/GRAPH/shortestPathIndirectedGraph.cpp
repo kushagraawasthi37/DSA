@@ -50,12 +50,10 @@ vector<int> shortestPathInDirectedAcyclicGraph(int src, int des, vector<vector<p
     vector<int> distance(n, INT32_MAX);
 
     // If source node is not given intilise it with 0
-
     distance[src] = 0;
     
     while (!s.empty())
     {
-
         int top = s.top();
         s.pop();
 

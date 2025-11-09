@@ -63,7 +63,7 @@ vector<int> topologicalSortKahnsAlgo(vector<vector<int>> &edges, int n, int e)
         // ans store karlo
         ans.push_back(front);
 
-        // neighbour Indegree update
+     //   // neighbour Indegree update
         for (auto neighbour : adj[front])
         {
             indegree[neighbour]--;
