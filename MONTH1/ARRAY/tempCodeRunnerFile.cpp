@@ -1,17 +1,24 @@
+#include <iostream>
+using namespace std;
 
-    int smallest = arr[0] + k;
-    int largest = arr[n - 1] - k;
-
-    for (int i = 1; i < n; i++)
+int linearSearch(int arr[], int size, int tar)
+{
+    for (int i = 0; i < size; i++)
     {
-        int minH = min(smallest, arr[i] - k);
-        int maxH = max(largest, arr[i - 1] + k);
-
-        if (minH < 0)
-            continue; // skip invalid case
-
-        ans = min(ans, maxH - minH);
+        if (tar == arr[i])
+        {
+            cout << "Element present " << endl;
+            return 1;
+        }
     }
+    cout<<"Element not present "<<endl;
+    return 0;
+}
 
-    return ans;
+
+int main()
+{
+    int arr[] = {1, 2, 3, 4, 5};
+    linearSearch(arr, 5, 6);
+    return 0;
 }

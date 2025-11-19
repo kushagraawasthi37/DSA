@@ -63,8 +63,12 @@ void traverseRight(node *root, vector<int> &ans)
 vector<int> boundary(node *root)
 {
     vector<int> ans;
-    if (root == NULL)
+    if (!root)
+        return ans;
+
+    if (!root->left && !root->right)
     {
+        ans.push_back(root->data);
         return ans;
     }
     ans.push_back(root->data);
@@ -72,10 +76,8 @@ vector<int> boundary(node *root)
     // left part print
     traverseLeft(root->left, ans);
 
-    // LeafNode Left Subtree
-    leafNode(root->left, ans);
-    // LeafNode Right Subtree
-    leafNode(root->right, ans);
+    // LeafNode  print
+    leafNode(root, ans);
 
     // Right Part Print
     traverseRight(root->right, ans);

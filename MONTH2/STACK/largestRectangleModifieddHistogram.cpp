@@ -41,7 +41,7 @@ class Solution {
     int maximalAreaOfSubMatrixOfAll1(vector<vector<int>> &matrix) {
        int m = matrix.size();
         int n = matrix[0].size();
-        
+        int maxRec = INT_MIN;
 
         for (int i = 0; i < m; i++) {
            
@@ -54,12 +54,11 @@ class Solution {
                     }
                 }
             }
+             maxRec = max(maxRec, largestRectanlgeHistogram(matrix[i]));
         }
 
-        int maxRec = INT_MIN;
-        for (int i = 0; i < m; i++) {
-            maxRec = max(maxRec, largestRectanlgeHistogram(matrix[i]));
-        }
+        
+      
 
         return maxRec;
     }

@@ -1,87 +1,162 @@
 #include <bits/stdc++.h>
 using namespace std;
-class LRUCache
+
+/* Class to implement Nodes
+of a doubly linked list */
+class Node
 {
 public:
-    // USING DOUBLY LINKEDLIST AND UNORDERED MAP
-    // LRU AT END OF DLL(TAIL SIDE)
-    // LRU AT START OF DLL(HEAD SIDE)
+    int key, val;
+    Node *next;
+    Node *prev;
 
-    class Node
+    // Constructors
+    Node()
     {
-    public:
-        int key, val;
-        Node *prev;
-        Node *next;
+        key = val = -1;
+        next = prev = NULL;
+    }
 
-        Node(int k, int v)
-        {
-            key = k;
-            val = v;
-            prev = next = NULL;
-        }
-    };
-
-    Node *head = new Node(-1, -1);
-    Node *tail = new Node(-1, -1);
-
-    unordered_map<int, Node *> m;
-    int limit;
-
-    // Adding the node at head->next
-    void *addNode(Node *newNode)
+    Node(int k, int value)
     {
-        Node *oldnext = head->next;
+        key = k;
+        val = value;
+        next = prev = NULL;
+    }
+};
 
-        head->next = newNode;
-        oldnext->prev = newNode;
-        newNode->next = oldnext;
-        newNode->prev = head;
-    };
-    void *deleteNode(Node *oldNode)
+// Class implementing LRU cache
+class LRUCache
+{
+private:
+    map<int, Node *> mpp; // Map data structure
+    int cap;              // Capacity
+    Node *head;           // Dummy head pointer
+    Node *tail;           // Dummy tail pointer
+
+    /* Private method to delete node
+    from doubly linked list */
+    void deleteNode(Node *node)
     {
-        Node *oldnext = oldNode->next;
-        Node *oldprev = oldNode->prev;
 
-        oldnext->prev = oldprev;
-        oldprev->next = oldnext;
-    };
+        // Get the previous and next pointers
+        Node *prevNode = node->prev;
+        Node *nextNode = node->next;
 
+        // Remove pointers to node
+        prevNode->next = nextNode;
+        nextNode->prev = prevNode;
+    }
+
+    // Private method to insert node after head
+    void insertAfterHead(Node *node)
+    {
+
+        Node *nextNode = head->next;
+        head->next = node;
+        nextNode->prev = node;
+        node->prev = head;
+        node->next = nextNode;
+    }
+
+public:
+    // Method to initialise cache with given capacity
     LRUCache(int capacity)
     {
-        limit = capacity;
+        cap = capacity; // Set the capacity
+        mpp.clear();    // Clear the cache
+
+        head = new Node();
+        tail = new Node();
+
+        // Make the connections
         head->next = tail;
         tail->prev = head;
     }
 
-    int get(int key)
-    { // tc->O(1)
+    // Method to get the key from cache
+    int get(int key_)
+    {
+        // Return -1 if it is not present in cache
+        if (mpp.find(key_) == mpp.end())
+            return -1;
+
+        Node *node = mpp[key_]; // Get the node
+        int val = node->val;    // Get the value
+
+        // Delete the node
+        deleteNode(node);
+        /* Insert this node to front
+        as it was recently used */
+        insertAfterHead(node);
+
+        // Return the stored value
+        return val;
     }
 
-    void put(int key, int val)
-    { // tc->O(1)
+    /* Method to update value is key exists,
+    otherwise insert the key-value pair */
+    void put(int key_, int value)
+    {
 
-        // SUPPOSE NODE ALREADY EXIST
-        if (m.find(key) != m.end())
+        // Update the value if key is already present
+        if (mpp.find(key_) != mpp.end())
         {
-            Node *oldNode = m[key];
-            delete (oldNode);
-            m.erase(key);
+
+            Node *node = mpp[key_]; // Get the node
+            node->val = value;      // Update the value
+
+            // Delete the node
+            deleteNode(node);
+
+            /* Insert this node to front
+            as it was recently used */
+            insertAfterHead(node);
+
+            return;
         }
 
-        // CAPACITY REACHED
-        if (m.size() == limit)
+        // Check if the capacity limit has reached
+        if (mpp.size() == cap)
         {
-            m.erase(tail->prev->key);
-            deleteNode(tail->prev);
+
+            // Get the least recently used node
+            Node *node = tail->prev;
+
+            
+            // Delete node from map
+            mpp.erase(node->key);
+
+            // Delete node from doubly linked list
+            deleteNode(node);
         }
 
-        Node *newNode = new Node(key, val);
-        addNode(newNode);
-        m[key] = newNode;
+        // Create a new node
+        Node *newNode = new Node(key_, value);
+
+        // Insert it in map
+        mpp[key_] = newNode;
+
+        // Insert in doubly linked list
+        insertAfterHead(newNode);
     }
 };
+
 int main()
 {
+    // LRU Cache
+    LRUCache cache(2);
+
+    // Queries
+    cache.put(1, 1);
+    cache.put(2, 2);
+    cout << cache.get(1) << " ";
+    cache.put(3, 3);
+    cout << cache.get(2) << " ";
+    cache.put(4, 4);
+    cout << cache.get(1) << " ";
+    cout << cache.get(3) << " ";
+    cout << cache.get(4) << " ";
+
     return 0;
 }

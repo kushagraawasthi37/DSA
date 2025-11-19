@@ -63,7 +63,7 @@ int widthDiaOftree(node *root)
 
     int op1 = widthDiaOftree(root->left);                                           // Answer in left subtree
     int op2 = widthDiaOftree(root->right);                                          // answer in right subtree
-    int op3 = heightOfBinaryTree(root->right) + heightOfBinaryTree(root->left) + 1; // Answer in both part
+    int op3 = heightOfBinaryTree(root->right) + heightOfBinaryTree(root->left) ; // Answer in both part
 
     int ans = max(op1, max(op2, op3));
     return ans;
@@ -84,7 +84,7 @@ pair<int, int> diameterFast(node *root)
 
     int op1 = left.first;
     int op2 = right.first;
-    int op3 = right.second + left.second + 1;
+    int op3 = right.second + left.second ;
 
     pair<int, int> ans;
     // Diameter

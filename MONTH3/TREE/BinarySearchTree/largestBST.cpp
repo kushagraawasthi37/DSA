@@ -15,61 +15,75 @@ public:
     }
 };
 
+struct TreeNode
+{
+    int data;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int val) : data(val), left(nullptr), right(nullptr) {}
+};
+
 class info
 {
 public:
     int maxi;
     int mini;
-    bool isBSt;
     int size;
+    bool isBSt;
 };
 
-info solve(node *root, int &ans)
+class Solution
 {
-    if (!root)
-        return {INT_MIN, INT_MAX, true, 0};
-
-    info left = solve(root->left, ans);
-    info right = solve(root->right, ans);
-
-    info current;
-    current.size = left.size + right.size + 1;
-    current.maxi = max(root->data, right.maxi);
-    current.mini = min(left.mini, root->data);
-
-    if (right.isBSt && left.isBSt && (root->data > left.maxi) && (root->data < right.mini))
+private:
+    info solve(TreeNode *root, int &ans)
     {
-        current.isBSt = true;
+        if (!root)
+            return {INT_MIN, INT_MAX, 0, true};
+
+        info left = solve(root->left, ans);
+        info right = solve(root->right, ans);
+
+        info current;
+        current.size = left.size + right.size + 1;
+        current.maxi = max(root->data, right.maxi);
+        current.mini = min(root->data, left.mini);
+
+        if (right.isBSt && left.isBSt && (root->data > left.maxi) &&
+            (root->data < right.mini))
+        {
+            current.isBSt = true;
+        }
+        else
+        {
+            current.isBSt = false;
+        }
+
+        if (current.isBSt)
+        {
+            ans = max(ans, current.size);
+        }
+        return current;
     }
-    else
+
+public:
+    int largestBST(TreeNode *root)
     {
-        current.isBSt = false;
+        int ans = 0;
+        solve(root, ans);
+        return ans;
     }
-
-    if (current.isBSt)
-    {
-        ans = max(ans, current.size);
-    }
-    return current;
-}
-
-int largestBST(node *root)
-{
-    int ans = 0;
-    solve(root, ans);
-    return ans;
-}
-
+};
 int main()
 {
-    node *root = new node(10);
-    root->left = new node(5);
-    root->right = new node(15);
-    root->left->left = new node(1);
-    root->left->right = new node(8);
-    root->right->right = new node(7);
+    TreeNode *root = new TreeNode(10);
+    root->left = new TreeNode(5);
+    root->right = new TreeNode(15);
+    root->left->left = new TreeNode(1);
+    root->left->right = new TreeNode(8);
+    root->right->right = new TreeNode(7);
 
-    cout << "Size of largest BST in the tree: " << largestBST(root) << endl;
+    Solution S;
+    cout << "Size of largest BST in the tree: " << S.largestBST(root);
 
     return 0;
 }

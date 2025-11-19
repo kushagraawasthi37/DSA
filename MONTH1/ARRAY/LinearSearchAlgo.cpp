@@ -11,14 +11,13 @@ int linearSearch(int arr[], int size, int tar)
             return 1;
         }
     }
-    cout<<"Element not present "<<endl;
+    cout << "Element not present " << endl;
     return 0;
 }
-
 
 int main()
 {
     int arr[] = {1, 2, 3, 4, 5};
-    linearSearch(arr, 5, 6);
+    linearSearch(arr, 5, 2);
     return 0;
 }

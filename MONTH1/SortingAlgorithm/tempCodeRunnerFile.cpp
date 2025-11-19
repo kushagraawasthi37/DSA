@@ -47,16 +47,3 @@ public:
         return nums;
     }
 };
-
-int main()
-{
-    vector<int> arr = {1, 4, 2, 3, 8};
-    Solution S;
-    S.quickSort(arr);
-
-    for (auto ele : arr)
-    {
-        cout << ele << " ";
-    }
-    return 0;
-}
