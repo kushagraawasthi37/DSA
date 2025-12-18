@@ -26,12 +26,13 @@ int fiboTab(int n, vector<int> &dp)
 
     for (int i = 2; i <= n; i++)
     {
-        // step 2:
+        // step 2: base case se final ki taraf jao
         dp[i] = dp[i - 1] + dp[i - 2];
     }
 
     return dp[n];
 }
+
 int fiboSpace(int n)
 {
     // Space Optimsation
