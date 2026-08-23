@@ -43,7 +43,6 @@ bool isSafe(vector<vector<char>> &board, int row, int col, char digit)
 }
 bool sudokuSolver(vector<vector<char>> &board, int row, int col)
 {
-    // LETS SOLVE IT BY ROWWISE
 
     // base case
     if (row == 9)

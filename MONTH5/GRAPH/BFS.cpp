@@ -3,13 +3,13 @@ using namespace std;
 
 void prepareAdjList(unordered_map<int, list<int>> &adjList, vector<pair<int, int>> edges)
 {
-    for (int i = 0; i < edges.size(); i++)
+    for (auto i : edges)
     {
-        int u = edges[i].first;
-        int v = edges[i].second;
+        int u = i.first;
+        int v = i.second;
 
+        adjList[u].push_back(v);
         adjList[v].push_back(u);
-        adjList[u].push_back(v); // Undirected Graph
     }
 }
 
@@ -66,7 +66,9 @@ vector<int> BFStraversal(int vertex, vector<pair<int, int>> edges)
     }
 
     return ans;
-}//
+} //
+
+
 int main()
 {
     int vertex = 6;
@@ -84,3 +86,5 @@ int main()
 
     return 0;
 }
+
+//Revi>>1

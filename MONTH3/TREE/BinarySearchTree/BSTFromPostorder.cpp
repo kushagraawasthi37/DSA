@@ -15,7 +15,7 @@ public:
 };
 node *solve(vector<int> &post, int mini, int maxi, int &i)
 {
-    if (post.size() == i)
+    if (i<0)
         return NULL;
 
     if (post[i] > maxi || post[i] < mini)

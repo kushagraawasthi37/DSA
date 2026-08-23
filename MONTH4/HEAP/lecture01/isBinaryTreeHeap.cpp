@@ -43,11 +43,9 @@ bool isMaxOrder(node *root)
     if (!root)
         return true;
 
-    // Leaf Node
     if (root->left == NULL && root->right == NULL)
-        return true; // Leaf node is always heap
+        return true; 
 
-    // Only left child exist
     if (root->right == NULL)
     {
         if (root->data >= root->left->data)
