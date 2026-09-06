@@ -33,8 +33,10 @@ private:
         int deletedCnt = 0;
 
         while (k-- && cursor != root) {
+            Node* toDelete = cursor;
             cursor = cursor->prev;
             cursor->next = nullptr;
+            delete toDelete;
             deletedCnt++;
         }
 
@@ -47,21 +49,13 @@ private:
     }
 
     string leftKStep(int k) {
-        string left = "";
-
         while (k-- && cursor != root) {
             cursor = cursor->prev;
         }
-
-        Node* node = cursor;
-        int m = 10;
-
         return getLast10();
     }
 
     string rightKStep(int k) {
-        int m = 10;
-
         while (k-- && cursor->next) {
             cursor = cursor->next;
         }
