@@ -13,26 +13,34 @@ class TextEditor {
 
 private:
     Node* root;
-    Node* rightMostChar;
     Node* cursor;
+
+    string getLast10() {
+        string ans;
+        Node* node = cursor;
+
+        for (int i = 0; i < 10 && node != root; i++) {
+            ans += node->val;
+            node = node->prev;
+        }
+
+        reverse(ans.begin(), ans.end());
+        return ans;
+    }
 
     int deleteKNode(int k) {
         Node* nextNode = cursor->next;
         int deletedCnt = 0;
+
         while (k-- && cursor != root) {
-
-            if (cursor == rightMostChar)
-                rightMostChar = cursor->prev;
-
             cursor = cursor->prev;
             cursor->next = nullptr;
-
             deletedCnt++;
         }
 
+        cursor->next = nextNode;
         if (nextNode) {
             nextNode->prev = cursor;
-            cursor->next = nextNode;
         }
 
         return deletedCnt;
@@ -40,6 +48,7 @@ private:
 
     string leftKStep(int k) {
         string left = "";
+
         while (k-- && cursor != root) {
             cursor = cursor->prev;
         }
@@ -47,41 +56,23 @@ private:
         Node* node = cursor;
         int m = 10;
 
-        while (m-- && node != root) {
-            left += node->val;
-            node = node->prev;
-        }
-
-        reverse(left.begin(), left.end());
-
-        return left;
+        return getLast10();
     }
 
     string rightKStep(int k) {
         int m = 10;
 
-        while (k-- && cursor != rightMostChar) {
+        while (k-- && cursor->next) {
             cursor = cursor->next;
         }
 
-        Node* node = cursor;
-        string right = "";
-
-        while (m-- && node != root) {
-            right += node->val;
-            node = node->prev;
-        }
-
-        reverse(right.begin(), right.end());
-
-        return right;
+        return getLast10();
     }
 
 public:
     TextEditor() {
         root = new Node('|');
         cursor = root;
-        rightMostChar = root;
     }
 
     void addText(string text) {
@@ -94,13 +85,11 @@ public:
             cursor = curr;
         }
 
+        cursor->next = nextNode;
+
         if (nextNode) {
-            cursor->next = nextNode;
             nextNode->prev = cursor;
         }
-
-        else
-            rightMostChar = cursor;
     }
 
     int deleteText(int k) { return deleteKNode(k); }
