@@ -21,4 +21,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0092-reverse-linked-list-ii](https://github.com/kushagraawasthi37/DSA/tree/master/0092-reverse-linked-list-ii) |
+| [0328-odd-even-linked-list](https://github.com/kushagraawasthi37/DSA/tree/master/0328-odd-even-linked-list) |
 <!---LeetCode Topics End-->
