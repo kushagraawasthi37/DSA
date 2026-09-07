@@ -9,22 +9,6 @@ public:
     void set(string key, string value, int timestamp) {
         m[timestamp][key] = value;
         mpp[key].push_back(timestamp);
-
-        // for (auto it : mpp) {
-        //     cout << it.first << " ";
-        //     for (auto e : it.second)
-        //         cout << e << " ";
-        // }
-
-        cout << "timestamp " << timestamp << endl;
-
-        // for (auto it : m) {
-        //     cout << it.first << " [ ";
-        //     for (auto i : it.second) {
-        //         cout << i.first << "->" << i.second << " ";
-        //     }
-        //     cout << " ] " << endl;
-        // }
     }
 
     string get(string key, int timestamp) {
