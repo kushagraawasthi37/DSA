@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0981-time-based-key-value-store](https://github.com/kushagraawasthi37/DSA/tree/master/0981-time-based-key-value-store) |
 | [1171-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/kushagraawasthi37/DSA/tree/master/1171-remove-zero-sum-consecutive-nodes-from-linked-list) |
 ## Stack
 |  |
@@ -48,10 +49,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0981-time-based-key-value-store](https://github.com/kushagraawasthi37/DSA/tree/master/0981-time-based-key-value-store) |
 | [2296-design-a-text-editor](https://github.com/kushagraawasthi37/DSA/tree/master/2296-design-a-text-editor) |
 ## Design
 |  |
 | ------- |
+| [0981-time-based-key-value-store](https://github.com/kushagraawasthi37/DSA/tree/master/0981-time-based-key-value-store) |
 | [2296-design-a-text-editor](https://github.com/kushagraawasthi37/DSA/tree/master/2296-design-a-text-editor) |
 ## Simulation
 |  |
@@ -65,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kushagraawasthi37/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0981-time-based-key-value-store](https://github.com/kushagraawasthi37/DSA/tree/master/0981-time-based-key-value-store) |
 ## Matrix
 |  |
 | ------- |
