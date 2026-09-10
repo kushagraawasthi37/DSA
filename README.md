@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kushagraawasthi37/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0846-hand-of-straights](https://github.com/kushagraawasthi37/DSA/tree/master/0846-hand-of-straights) |
 | [0857-minimum-cost-to-hire-k-workers](https://github.com/kushagraawasthi37/DSA/tree/master/0857-minimum-cost-to-hire-k-workers) |
+| [0898-bitwise-ors-of-subarrays](https://github.com/kushagraawasthi37/DSA/tree/master/0898-bitwise-ors-of-subarrays) |
 ## Greedy
 |  |
 | ------- |
@@ -90,4 +91,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/kushagraawasthi37/DSA/tree/master/0056-merge-intervals) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0898-bitwise-ors-of-subarrays](https://github.com/kushagraawasthi37/DSA/tree/master/0898-bitwise-ors-of-subarrays) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0898-bitwise-ors-of-subarrays](https://github.com/kushagraawasthi37/DSA/tree/master/0898-bitwise-ors-of-subarrays) |
 <!---LeetCode Topics End-->
