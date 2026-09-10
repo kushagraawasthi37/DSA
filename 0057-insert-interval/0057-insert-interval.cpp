@@ -10,13 +10,6 @@ public:
 
         vector<vector<int>> ans;
 
-        if (newInterval[1] < intervals[0][0]) {
-            ans.push_back(newInterval);
-            for (auto ele : intervals)
-                ans.push_back(ele);
-            return ans;
-        }
-
         int i = 0;
         while (i < size) {
             if (intervals[i][1] < newInterval[0])
@@ -25,35 +18,16 @@ public:
                 break;
         }
 
-        if (i == size) {
-            ans.push_back(newInterval);
-            return ans;
-        }
-        int intSt;
-        int intEnd;
-
-        
-        if (newInterval[1] < intervals[i][0]) {
-            ans.push_back({newInterval});
-            intSt = intervals[i][0];
-            intEnd = intervals[i][1];
-        } else {
-            intSt = min(intervals[i][0], newInterval[0]);
-            intEnd = max(intervals[i][1], newInterval[1]);
+        while (i < intervals.size() && intervals[i][0] <= newInterval[1]) {
+            newInterval = {min(newInterval[0], intervals[i][0]),
+                           max(newInterval[1], intervals[i][1])};
+            i++;
         }
 
-        for (; i < size; i++) {
-            if (intEnd < intervals[i][0]) {
-                ans.push_back({intSt, intEnd});
-                intSt = intervals[i][0];
-                intEnd = intervals[i][1];
-            } else {
-                intEnd = max(intervals[i][1], intEnd);
-            }
+        ans.push_back(newInterval);
 
-            if (i == size - 1) {
-                ans.push_back({intSt, intEnd});
-            }
+        while (i < intervals.size()) {
+            ans.push_back(intervals[i++]);
         }
 
         return ans;
