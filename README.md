@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/kushagraawasthi37/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0846-hand-of-straights](https://github.com/kushagraawasthi37/DSA/tree/master/0846-hand-of-straights) |
 | [0981-time-based-key-value-store](https://github.com/kushagraawasthi37/DSA/tree/master/0981-time-based-key-value-store) |
 | [1171-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/kushagraawasthi37/DSA/tree/master/1171-remove-zero-sum-consecutive-nodes-from-linked-list) |
@@ -108,25 +109,34 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0100-same-tree](https://github.com/kushagraawasthi37/DSA/tree/master/0100-same-tree) |
 | [0173-binary-search-tree-iterator](https://github.com/kushagraawasthi37/DSA/tree/master/0173-binary-search-tree-iterator) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/kushagraawasthi37/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/kushagraawasthi37/DSA/tree/master/0100-same-tree) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/kushagraawasthi37/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/kushagraawasthi37/DSA/tree/master/0100-same-tree) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/kushagraawasthi37/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Binary Tree
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/kushagraawasthi37/DSA/tree/master/0100-same-tree) |
 | [0173-binary-search-tree-iterator](https://github.com/kushagraawasthi37/DSA/tree/master/0173-binary-search-tree-iterator) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/kushagraawasthi37/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Binary Search Tree
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/kushagraawasthi37/DSA/tree/master/0173-binary-search-tree-iterator) |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/kushagraawasthi37/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Iterator
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/kushagraawasthi37/DSA/tree/master/0173-binary-search-tree-iterator) |
+## Two Pointers
+|  |
+| ------- |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/kushagraawasthi37/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 <!---LeetCode Topics End-->
