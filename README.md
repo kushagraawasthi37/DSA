@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/kushagraawasthi37/DSA/tree/master/0173-binary-search-tree-iterator) |
 | [2296-design-a-text-editor](https://github.com/kushagraawasthi37/DSA/tree/master/2296-design-a-text-editor) |
 | [2487-remove-nodes-from-linked-list](https://github.com/kushagraawasthi37/DSA/tree/master/2487-remove-nodes-from-linked-list) |
 ## Recursion
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/kushagraawasthi37/DSA/tree/master/0173-binary-search-tree-iterator) |
 | [0981-time-based-key-value-store](https://github.com/kushagraawasthi37/DSA/tree/master/0981-time-based-key-value-store) |
 | [2296-design-a-text-editor](https://github.com/kushagraawasthi37/DSA/tree/master/2296-design-a-text-editor) |
 ## Simulation
@@ -105,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/kushagraawasthi37/DSA/tree/master/0100-same-tree) |
+| [0173-binary-search-tree-iterator](https://github.com/kushagraawasthi37/DSA/tree/master/0173-binary-search-tree-iterator) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -117,4 +120,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/kushagraawasthi37/DSA/tree/master/0100-same-tree) |
+| [0173-binary-search-tree-iterator](https://github.com/kushagraawasthi37/DSA/tree/master/0173-binary-search-tree-iterator) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/kushagraawasthi37/DSA/tree/master/0173-binary-search-tree-iterator) |
+## Iterator
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/kushagraawasthi37/DSA/tree/master/0173-binary-search-tree-iterator) |
 <!---LeetCode Topics End-->
