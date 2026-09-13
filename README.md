@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/kushagraawasthi37/DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0056-merge-intervals](https://github.com/kushagraawasthi37/DSA/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/kushagraawasthi37/DSA/tree/master/0057-insert-interval) |
 | [0239-sliding-window-maximum](https://github.com/kushagraawasthi37/DSA/tree/master/0239-sliding-window-maximum) |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/kushagraawasthi37/DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kushagraawasthi37/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0981-time-based-key-value-store](https://github.com/kushagraawasthi37/DSA/tree/master/0981-time-based-key-value-store) |
 ## Matrix
@@ -157,4 +159,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/kushagraawasthi37/DSA/tree/master/0239-sliding-window-maximum) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/kushagraawasthi37/DSA/tree/master/0004-median-of-two-sorted-arrays) |
 <!---LeetCode Topics End-->
