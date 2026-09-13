@@ -1,32 +1,31 @@
 class Solution {
 public:
     int longestSubarray(vector<int>& nums, int limit) {
-        int ans = 0;
+        map<int, int> m;
 
-        deque<int> increasing;
-        deque<int> decreasing;
         int l = 0;
         int r = 0;
 
+        int ans = 0;
+
         while (r < nums.size()) {
-            while (!increasing.empty() && increasing.back() > nums[r])
-                increasing.pop_back();
-            increasing.push_back(nums[r]);
+            m[nums[r]]++;
 
-            while (!decreasing.empty() && decreasing.back() < nums[r])
-                decreasing.pop_back();
-            decreasing.push_back(nums[r]);
-
-            while (abs(decreasing.front() - increasing.front()) > limit) {
-                if (decreasing.front() == nums[l])
-                    decreasing.pop_front();
-                if (increasing.front() == nums[l])
-                    increasing.pop_front();
-
-                l++;
+            if (abs(m.begin()->first - m.rbegin()->first) <= limit) {
+                ans = max(ans, r - l + 1);
             }
+            else {
+                while (l < r && !m.empty() &&
+                       abs(m.begin()->first - m.rbegin()->first) > limit) {
+                    m[nums[l]]--;
+                    if (m[nums[l]] <= 0) {
+                        m.erase(nums[l]);
+                    }
+                    l++;
+                }
 
-            ans = max(ans, r - l + 1);
+                ans = max(ans, r - l + 1);
+            }
 
             r++;
         }
