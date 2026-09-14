@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/kushagraawasthi37/DSA/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/kushagraawasthi37/DSA/tree/master/0057-insert-interval) |
 | [0239-sliding-window-maximum](https://github.com/kushagraawasthi37/DSA/tree/master/0239-sliding-window-maximum) |
+| [0300-longest-increasing-subsequence](https://github.com/kushagraawasthi37/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kushagraawasthi37/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0414-third-maximum-number](https://github.com/kushagraawasthi37/DSA/tree/master/0414-third-maximum-number) |
 | [0827-making-a-large-island](https://github.com/kushagraawasthi37/DSA/tree/master/0827-making-a-large-island) |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/kushagraawasthi37/DSA/tree/master/0004-median-of-two-sorted-arrays) |
+| [0300-longest-increasing-subsequence](https://github.com/kushagraawasthi37/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kushagraawasthi37/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0981-time-based-key-value-store](https://github.com/kushagraawasthi37/DSA/tree/master/0981-time-based-key-value-store) |
 ## Matrix
@@ -113,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/kushagraawasthi37/DSA/tree/master/0062-unique-paths) |
+| [0300-longest-increasing-subsequence](https://github.com/kushagraawasthi37/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0898-bitwise-ors-of-subarrays](https://github.com/kushagraawasthi37/DSA/tree/master/0898-bitwise-ors-of-subarrays) |
 ## Bit Manipulation
 |  |
@@ -189,4 +192,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/kushagraawasthi37/DSA/tree/master/0062-unique-paths) |
+## Longest Increasing Subsequence
+|  |
+| ------- |
+| [0300-longest-increasing-subsequence](https://github.com/kushagraawasthi37/DSA/tree/master/0300-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
