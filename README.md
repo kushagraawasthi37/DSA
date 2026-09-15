@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/kushagraawasthi37/DSA/tree/master/0062-unique-paths) |
 | [0300-longest-increasing-subsequence](https://github.com/kushagraawasthi37/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0898-bitwise-ors-of-subarrays](https://github.com/kushagraawasthi37/DSA/tree/master/0898-bitwise-ors-of-subarrays) |
+| [2787-ways-to-express-an-integer-as-sum-of-powers](https://github.com/kushagraawasthi37/DSA/tree/master/2787-ways-to-express-an-integer-as-sum-of-powers) |
 ## Bit Manipulation
 |  |
 | ------- |
