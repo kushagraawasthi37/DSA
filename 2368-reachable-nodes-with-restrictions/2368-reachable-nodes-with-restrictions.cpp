@@ -2,15 +2,13 @@
 class Solution {
 
 private:
-    int solve(vector<bool>& visited, vector<vector<int>>& adjList, int node,
+    int solve(int parent, vector<vector<int>>& adjList, int node,
               unordered_set<int>& s) {
-        visited[node] = true;
-
         int ans = 1;
 
         for (auto nbr : adjList[node]) {
-            if (!visited[nbr] && s.find(nbr) == s.end()) {
-                ans += solve(visited, adjList, nbr, s);
+            if (parent !=nbr && s.find(nbr) == s.end()) {
+                ans += solve(node, adjList, nbr, s);
             }
         }
 
@@ -34,16 +32,8 @@ public:
             adjList[v].push_back(u);
         }
 
-        for (int i = 0; i < adjList.size(); i++) {
-            cout << i << "=>";
-            for (int j : adjList[i])
-                cout << j << " ";
 
-            cout << endl;
-        }
-
-        vector<bool> visited(n,false);
-
-        return solve(visited,adjList,0,s);
+    
+        return solve(-1,adjList,0,s);
     }
 };
