@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/kushagraawasthi37/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kushagraawasthi37/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0414-third-maximum-number](https://github.com/kushagraawasthi37/DSA/tree/master/0414-third-maximum-number) |
+| [0731-my-calendar-ii](https://github.com/kushagraawasthi37/DSA/tree/master/0731-my-calendar-ii) |
 | [0827-making-a-large-island](https://github.com/kushagraawasthi37/DSA/tree/master/0827-making-a-large-island) |
 | [0846-hand-of-straights](https://github.com/kushagraawasthi37/DSA/tree/master/0846-hand-of-straights) |
 | [0857-minimum-cost-to-hire-k-workers](https://github.com/kushagraawasthi37/DSA/tree/master/0857-minimum-cost-to-hire-k-workers) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/kushagraawasthi37/DSA/tree/master/0173-binary-search-tree-iterator) |
 | [0295-find-median-from-data-stream](https://github.com/kushagraawasthi37/DSA/tree/master/0295-find-median-from-data-stream) |
+| [0731-my-calendar-ii](https://github.com/kushagraawasthi37/DSA/tree/master/0731-my-calendar-ii) |
 | [0981-time-based-key-value-store](https://github.com/kushagraawasthi37/DSA/tree/master/0981-time-based-key-value-store) |
 | [2296-design-a-text-editor](https://github.com/kushagraawasthi37/DSA/tree/master/2296-design-a-text-editor) |
 ## Simulation
@@ -100,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/kushagraawasthi37/DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0300-longest-increasing-subsequence](https://github.com/kushagraawasthi37/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kushagraawasthi37/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0731-my-calendar-ii](https://github.com/kushagraawasthi37/DSA/tree/master/0731-my-calendar-ii) |
 | [0981-time-based-key-value-store](https://github.com/kushagraawasthi37/DSA/tree/master/0981-time-based-key-value-store) |
 ## Matrix
 |  |
@@ -197,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [0731-my-calendar-ii](https://github.com/kushagraawasthi37/DSA/tree/master/0731-my-calendar-ii) |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/kushagraawasthi37/DSA/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 ## Math
 |  |
@@ -222,4 +226,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/kushagraawasthi37/DSA/tree/master/0295-find-median-from-data-stream) |
+## Segment Tree
+|  |
+| ------- |
+| [0731-my-calendar-ii](https://github.com/kushagraawasthi37/DSA/tree/master/0731-my-calendar-ii) |
+## Prefix Sum
+|  |
+| ------- |
+| [0731-my-calendar-ii](https://github.com/kushagraawasthi37/DSA/tree/master/0731-my-calendar-ii) |
 <!---LeetCode Topics End-->
