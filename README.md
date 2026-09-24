@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/kushagraawasthi37/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kushagraawasthi37/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0414-third-maximum-number](https://github.com/kushagraawasthi37/DSA/tree/master/0414-third-maximum-number) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/kushagraawasthi37/DSA/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0731-my-calendar-ii](https://github.com/kushagraawasthi37/DSA/tree/master/0731-my-calendar-ii) |
 | [0827-making-a-large-island](https://github.com/kushagraawasthi37/DSA/tree/master/0827-making-a-large-island) |
 | [0846-hand-of-straights](https://github.com/kushagraawasthi37/DSA/tree/master/0846-hand-of-straights) |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/kushagraawasthi37/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kushagraawasthi37/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0414-third-maximum-number](https://github.com/kushagraawasthi37/DSA/tree/master/0414-third-maximum-number) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/kushagraawasthi37/DSA/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0846-hand-of-straights](https://github.com/kushagraawasthi37/DSA/tree/master/0846-hand-of-straights) |
 | [0857-minimum-cost-to-hire-k-workers](https://github.com/kushagraawasthi37/DSA/tree/master/0857-minimum-cost-to-hire-k-workers) |
 ## Heap (Priority Queue)
@@ -54,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0076-minimum-window-substring](https://github.com/kushagraawasthi37/DSA/tree/master/0076-minimum-window-substring) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/kushagraawasthi37/DSA/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kushagraawasthi37/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0846-hand-of-straights](https://github.com/kushagraawasthi37/DSA/tree/master/0846-hand-of-straights) |
 | [0981-time-based-key-value-store](https://github.com/kushagraawasthi37/DSA/tree/master/0981-time-based-key-value-store) |
@@ -105,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/kushagraawasthi37/DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0300-longest-increasing-subsequence](https://github.com/kushagraawasthi37/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kushagraawasthi37/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/kushagraawasthi37/DSA/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0731-my-calendar-ii](https://github.com/kushagraawasthi37/DSA/tree/master/0731-my-calendar-ii) |
 | [0981-time-based-key-value-store](https://github.com/kushagraawasthi37/DSA/tree/master/0981-time-based-key-value-store) |
 ## Matrix
@@ -176,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/kushagraawasthi37/DSA/tree/master/0005-longest-palindromic-substring) |
 | [0295-find-median-from-data-stream](https://github.com/kushagraawasthi37/DSA/tree/master/0295-find-median-from-data-stream) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/kushagraawasthi37/DSA/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kushagraawasthi37/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 ## Queue
 |  |
