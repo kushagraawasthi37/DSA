@@ -17,17 +17,9 @@ public:
             return ans;
         }
 
-        for (auto it : m) {
-            int ele = it.first;
-
-            if (m.find(ele - k) != m.end() && m[ele - k] > 0) {
+        for (auto& [x, freq] : m) {
+            if (m.find(x + k) != m.end())
                 ans++;
-            }
-            if (m.find(ele + k) != m.end() && m[ele + k] > 0) {
-                ans++;
-            }
-
-            m[ele] = -1;
         }
         return ans;
     }
