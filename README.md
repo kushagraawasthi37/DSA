@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0846-hand-of-straights](https://github.com/kushagraawasthi37/DSA/tree/master/0846-hand-of-straights) |
 | [0857-minimum-cost-to-hire-k-workers](https://github.com/kushagraawasthi37/DSA/tree/master/0857-minimum-cost-to-hire-k-workers) |
 | [0898-bitwise-ors-of-subarrays](https://github.com/kushagraawasthi37/DSA/tree/master/0898-bitwise-ors-of-subarrays) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/kushagraawasthi37/DSA/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/kushagraawasthi37/DSA/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2364-count-number-of-bad-pairs](https://github.com/kushagraawasthi37/DSA/tree/master/2364-count-number-of-bad-pairs) |
 | [2368-reachable-nodes-with-restrictions](https://github.com/kushagraawasthi37/DSA/tree/master/2368-reachable-nodes-with-restrictions) |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/kushagraawasthi37/DSA/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kushagraawasthi37/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0846-hand-of-straights](https://github.com/kushagraawasthi37/DSA/tree/master/0846-hand-of-straights) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/kushagraawasthi37/DSA/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0981-time-based-key-value-store](https://github.com/kushagraawasthi37/DSA/tree/master/0981-time-based-key-value-store) |
 | [1171-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/kushagraawasthi37/DSA/tree/master/1171-remove-zero-sum-consecutive-nodes-from-linked-list) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/kushagraawasthi37/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -244,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0731-my-calendar-ii](https://github.com/kushagraawasthi37/DSA/tree/master/0731-my-calendar-ii) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/kushagraawasthi37/DSA/tree/master/0974-subarray-sums-divisible-by-k) |
 ## Counting
 |  |
 | ------- |
