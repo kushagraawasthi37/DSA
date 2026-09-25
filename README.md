@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/kushagraawasthi37/DSA/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0846-hand-of-straights](https://github.com/kushagraawasthi37/DSA/tree/master/0846-hand-of-straights) |
 | [0857-minimum-cost-to-hire-k-workers](https://github.com/kushagraawasthi37/DSA/tree/master/0857-minimum-cost-to-hire-k-workers) |
+| [1096-brace-expansion-ii](https://github.com/kushagraawasthi37/DSA/tree/master/1096-brace-expansion-ii) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0846-hand-of-straights](https://github.com/kushagraawasthi37/DSA/tree/master/0846-hand-of-straights) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/kushagraawasthi37/DSA/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0981-time-based-key-value-store](https://github.com/kushagraawasthi37/DSA/tree/master/0981-time-based-key-value-store) |
+| [1096-brace-expansion-ii](https://github.com/kushagraawasthi37/DSA/tree/master/1096-brace-expansion-ii) |
 | [1171-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/kushagraawasthi37/DSA/tree/master/1171-remove-zero-sum-consecutive-nodes-from-linked-list) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/kushagraawasthi37/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [2364-count-number-of-bad-pairs](https://github.com/kushagraawasthi37/DSA/tree/master/2364-count-number-of-bad-pairs) |
@@ -72,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/kushagraawasthi37/DSA/tree/master/0173-binary-search-tree-iterator) |
+| [1096-brace-expansion-ii](https://github.com/kushagraawasthi37/DSA/tree/master/1096-brace-expansion-ii) |
 | [2296-design-a-text-editor](https://github.com/kushagraawasthi37/DSA/tree/master/2296-design-a-text-editor) |
 | [2487-remove-nodes-from-linked-list](https://github.com/kushagraawasthi37/DSA/tree/master/2487-remove-nodes-from-linked-list) |
 ## Recursion
@@ -88,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/kushagraawasthi37/DSA/tree/master/0005-longest-palindromic-substring) |
 | [0076-minimum-window-substring](https://github.com/kushagraawasthi37/DSA/tree/master/0076-minimum-window-substring) |
 | [0981-time-based-key-value-store](https://github.com/kushagraawasthi37/DSA/tree/master/0981-time-based-key-value-store) |
+| [1096-brace-expansion-ii](https://github.com/kushagraawasthi37/DSA/tree/master/1096-brace-expansion-ii) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/kushagraawasthi37/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [2296-design-a-text-editor](https://github.com/kushagraawasthi37/DSA/tree/master/2296-design-a-text-editor) |
 ## Design
@@ -164,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0100-same-tree](https://github.com/kushagraawasthi37/DSA/tree/master/0100-same-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kushagraawasthi37/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0827-making-a-large-island](https://github.com/kushagraawasthi37/DSA/tree/master/0827-making-a-large-island) |
+| [1096-brace-expansion-ii](https://github.com/kushagraawasthi37/DSA/tree/master/1096-brace-expansion-ii) |
 | [2368-reachable-nodes-with-restrictions](https://github.com/kushagraawasthi37/DSA/tree/master/2368-reachable-nodes-with-restrictions) |
 ## Binary Tree
 |  |
@@ -254,4 +259,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2364-count-number-of-bad-pairs](https://github.com/kushagraawasthi37/DSA/tree/master/2364-count-number-of-bad-pairs) |
+## Backtracking
+|  |
+| ------- |
+| [1096-brace-expansion-ii](https://github.com/kushagraawasthi37/DSA/tree/master/1096-brace-expansion-ii) |
 <!---LeetCode Topics End-->
