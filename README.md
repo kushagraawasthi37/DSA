@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0898-bitwise-ors-of-subarrays](https://github.com/kushagraawasthi37/DSA/tree/master/0898-bitwise-ors-of-subarrays) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/kushagraawasthi37/DSA/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/kushagraawasthi37/DSA/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1584-min-cost-to-connect-all-points](https://github.com/kushagraawasthi37/DSA/tree/master/1584-min-cost-to-connect-all-points) |
 | [2364-count-number-of-bad-pairs](https://github.com/kushagraawasthi37/DSA/tree/master/2364-count-number-of-bad-pairs) |
 | [2368-reachable-nodes-with-restrictions](https://github.com/kushagraawasthi37/DSA/tree/master/2368-reachable-nodes-with-restrictions) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/kushagraawasthi37/DSA/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
@@ -214,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0827-making-a-large-island](https://github.com/kushagraawasthi37/DSA/tree/master/0827-making-a-large-island) |
+| [1584-min-cost-to-connect-all-points](https://github.com/kushagraawasthi37/DSA/tree/master/1584-min-cost-to-connect-all-points) |
 | [2368-reachable-nodes-with-restrictions](https://github.com/kushagraawasthi37/DSA/tree/master/2368-reachable-nodes-with-restrictions) |
 ## Ordered Set
 |  |
@@ -241,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/kushagraawasthi37/DSA/tree/master/1584-min-cost-to-connect-all-points) |
 | [2368-reachable-nodes-with-restrictions](https://github.com/kushagraawasthi37/DSA/tree/master/2368-reachable-nodes-with-restrictions) |
 ## Data Stream
 |  |
@@ -263,4 +266,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1096-brace-expansion-ii](https://github.com/kushagraawasthi37/DSA/tree/master/1096-brace-expansion-ii) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/kushagraawasthi37/DSA/tree/master/1584-min-cost-to-connect-all-points) |
+## Prim's Algorithm
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/kushagraawasthi37/DSA/tree/master/1584-min-cost-to-connect-all-points) |
+## Kruskal's Algorithm
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/kushagraawasthi37/DSA/tree/master/1584-min-cost-to-connect-all-points) |
+## Borůvka's Algorithm
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/kushagraawasthi37/DSA/tree/master/1584-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
