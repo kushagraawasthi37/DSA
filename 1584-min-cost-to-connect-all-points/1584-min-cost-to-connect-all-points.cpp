@@ -20,22 +20,15 @@ public:
                                      points[i][1])});
             }
         }
-        int i = 0;
-        for (auto ele : adjList) {
-            cout << i++ << " -> ";
-            for (auto e : ele) {
-                cout << e.first << " " << e.second << " , ";
-            }
-
-            cout << endl;
-        }
-
+    
+        vector<int> dis(n, 1e9);
         vector<bool> visited(n);
         priority_queue<vector<int>, vector<vector<int>>, greater<vector<int>>>
             pq;
 
         int sum = 0;
         pq.push({0, 0});
+        dis[0] = 0;
 
         while (!pq.empty()) {
             int node = pq.top()[1];
@@ -48,8 +41,8 @@ public:
             visited[node] = true;
 
             for (auto e : adjList[node]) {
-                if (visited[e.first] == false) {
-
+                if (visited[e.first] == false && e.second < dis[e.first]) {
+                    dis[e.first] = e.second;
                     pq.push({e.second, e.first});
                 }
             }
