@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2364-count-number-of-bad-pairs](https://github.com/kushagraawasthi37/DSA/tree/master/2364-count-number-of-bad-pairs) |
 | [2368-reachable-nodes-with-restrictions](https://github.com/kushagraawasthi37/DSA/tree/master/2368-reachable-nodes-with-restrictions) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/kushagraawasthi37/DSA/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
+| [3599-partition-array-to-minimize-xor](https://github.com/kushagraawasthi37/DSA/tree/master/3599-partition-array-to-minimize-xor) |
 ## Greedy
 |  |
 | ------- |
@@ -145,10 +146,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/kushagraawasthi37/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0898-bitwise-ors-of-subarrays](https://github.com/kushagraawasthi37/DSA/tree/master/0898-bitwise-ors-of-subarrays) |
 | [2787-ways-to-express-an-integer-as-sum-of-powers](https://github.com/kushagraawasthi37/DSA/tree/master/2787-ways-to-express-an-integer-as-sum-of-powers) |
+| [3599-partition-array-to-minimize-xor](https://github.com/kushagraawasthi37/DSA/tree/master/3599-partition-array-to-minimize-xor) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0898-bitwise-ors-of-subarrays](https://github.com/kushagraawasthi37/DSA/tree/master/0898-bitwise-ors-of-subarrays) |
+| [3599-partition-array-to-minimize-xor](https://github.com/kushagraawasthi37/DSA/tree/master/3599-partition-array-to-minimize-xor) |
 ## Tree
 |  |
 | ------- |
@@ -258,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0731-my-calendar-ii](https://github.com/kushagraawasthi37/DSA/tree/master/0731-my-calendar-ii) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/kushagraawasthi37/DSA/tree/master/0974-subarray-sums-divisible-by-k) |
+| [3599-partition-array-to-minimize-xor](https://github.com/kushagraawasthi37/DSA/tree/master/3599-partition-array-to-minimize-xor) |
 ## Counting
 |  |
 | ------- |
