@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/kushagraawasthi37/DSA/tree/master/0005-longest-palindromic-substring) |
 | [0076-minimum-window-substring](https://github.com/kushagraawasthi37/DSA/tree/master/0076-minimum-window-substring) |
 | [0981-time-based-key-value-store](https://github.com/kushagraawasthi37/DSA/tree/master/0981-time-based-key-value-store) |
+| [1044-longest-duplicate-substring](https://github.com/kushagraawasthi37/DSA/tree/master/1044-longest-duplicate-substring) |
 | [1096-brace-expansion-ii](https://github.com/kushagraawasthi37/DSA/tree/master/1096-brace-expansion-ii) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/kushagraawasthi37/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [2296-design-a-text-editor](https://github.com/kushagraawasthi37/DSA/tree/master/2296-design-a-text-editor) |
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/kushagraawasthi37/DSA/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0731-my-calendar-ii](https://github.com/kushagraawasthi37/DSA/tree/master/0731-my-calendar-ii) |
 | [0981-time-based-key-value-store](https://github.com/kushagraawasthi37/DSA/tree/master/0981-time-based-key-value-store) |
+| [1044-longest-duplicate-substring](https://github.com/kushagraawasthi37/DSA/tree/master/1044-longest-duplicate-substring) |
 ## Matrix
 |  |
 | ------- |
@@ -132,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/kushagraawasthi37/DSA/tree/master/0076-minimum-window-substring) |
 | [0219-contains-duplicate-ii](https://github.com/kushagraawasthi37/DSA/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/kushagraawasthi37/DSA/tree/master/0239-sliding-window-maximum) |
+| [1044-longest-duplicate-substring](https://github.com/kushagraawasthi37/DSA/tree/master/1044-longest-duplicate-substring) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/kushagraawasthi37/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/kushagraawasthi37/DSA/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 ## Quicksort
@@ -290,4 +293,32 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1584-min-cost-to-connect-all-points](https://github.com/kushagraawasthi37/DSA/tree/master/1584-min-cost-to-connect-all-points) |
+## Rolling Hash
+|  |
+| ------- |
+| [1044-longest-duplicate-substring](https://github.com/kushagraawasthi37/DSA/tree/master/1044-longest-duplicate-substring) |
+## Suffix Array
+|  |
+| ------- |
+| [1044-longest-duplicate-substring](https://github.com/kushagraawasthi37/DSA/tree/master/1044-longest-duplicate-substring) |
+## Hash Function
+|  |
+| ------- |
+| [1044-longest-duplicate-substring](https://github.com/kushagraawasthi37/DSA/tree/master/1044-longest-duplicate-substring) |
+## Suffix Automaton
+|  |
+| ------- |
+| [1044-longest-duplicate-substring](https://github.com/kushagraawasthi37/DSA/tree/master/1044-longest-duplicate-substring) |
+## Suffix Tree
+|  |
+| ------- |
+| [1044-longest-duplicate-substring](https://github.com/kushagraawasthi37/DSA/tree/master/1044-longest-duplicate-substring) |
+## Z Algorithm
+|  |
+| ------- |
+| [1044-longest-duplicate-substring](https://github.com/kushagraawasthi37/DSA/tree/master/1044-longest-duplicate-substring) |
+## Boyer–Moore String-Search Algorithm
+|  |
+| ------- |
+| [1044-longest-duplicate-substring](https://github.com/kushagraawasthi37/DSA/tree/master/1044-longest-duplicate-substring) |
 <!---LeetCode Topics End-->
