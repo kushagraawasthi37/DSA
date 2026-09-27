@@ -1,77 +1,70 @@
 class Solution {
 public:
+    bool check(string& s, int len, int& index) {
+        int p = 31;
+        const int mod = 1e9 + 7;
+        int power = 1;
+        int hash = 0;
+
+        for (int i = 1; i < len; i++) {
+            power = ((long long)power * p) % mod;
+        }
+
+        for (int i = 0; i < len; i++) {
+            hash = (((long long)hash * p) % mod + (s[i] - 'a' + 1)) % mod;
+        }
+
+        unordered_map<int, int> m;
+
+        for (int i = 0; i <= s.length() - len; i++) {
+            if (m.count(hash) > 0) {
+                if (s.substr(i, len) == s.substr(m[hash], len)) {
+                    index = i;
+                    return true;
+                }
+            }
+
+            m[hash] = i;
+
+            if (i + len < s.length())
+                hash = (hash - ((long long)(s[i] - 'a' + 1) * (long long)power % mod) + mod) % mod;
+            hash =
+                ((long long)hash * (long long)p) % mod + (s[i + len] - 'a' + 1);
+        }
+
+        return false;
+    }
+
     string longestDupSubstring(string s) {
+
         int n = s.size();
 
-        const long long MOD = 1e9 + 7;
-        const long long BASE = 31;
+        int low = 1;
+        int high = n - 1;
 
-        vector<long long> power(n + 1);
-        vector<long long> pref(n + 1);
+        int ansIndex = -1;
+        int ansLength = 0;
 
-        power[0] = 1;
+        while (low <= high) {
 
-        for (int i = 0; i < n; i++) {
-            power[i + 1] = power[i] * BASE % MOD;
+            int mid = low + (high - low) / 2;
 
-            pref[i + 1] =
-                (pref[i] * BASE + (s[i] - 'a' + 1)) % MOD;
-        }
+            int index = -1;
 
-        auto getHash = [&](int l, int r) {
-            return (pref[r] -
-                    pref[l] * power[r - l] % MOD +
-                    MOD) % MOD;
-        };
+            if (check(s, mid, index)) {
 
-        auto check = [&](int len) -> int {
+                ansIndex = index;
+                ansLength = mid;
 
-            unordered_map<long long, vector<int>> mp;
-
-            for (int i = 0; i + len <= n; i++) {
-
-                long long h = getHash(i, i + len);
-
-                // Same hash -> verify actual strings
-                for (int j : mp[h]) {
-
-                    if (s.compare(i, len, s, j, len) == 0) {
-                        return i;
-                    }
-                }
-
-                mp[h].push_back(i);
-            }
-
-            return -1;
-        };
-
-        int lo = 1;
-        int hi = n - 1;
-
-        int ansStart = -1;
-        int ansLen = 0;
-
-        while (lo <= hi) {
-
-            int mid = lo + (hi - lo) / 2;
-
-            int start = check(mid);
-
-            if (start != -1) {
-                ansStart = start;
-                ansLen = mid;
-
-                lo = mid + 1;
-            }
-            else {
-                hi = mid - 1;
+                low = mid + 1;
+            } else {
+                high = mid - 1;
             }
         }
 
-        if (ansStart == -1)
+        if (ansIndex == -1)
             return "";
 
-        return s.substr(ansStart, ansLen);
+        return s.substr(ansIndex, ansLength);
     }
 };
