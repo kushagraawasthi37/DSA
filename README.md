@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0857-minimum-cost-to-hire-k-workers](https://github.com/kushagraawasthi37/DSA/tree/master/0857-minimum-cost-to-hire-k-workers) |
 | [0898-bitwise-ors-of-subarrays](https://github.com/kushagraawasthi37/DSA/tree/master/0898-bitwise-ors-of-subarrays) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/kushagraawasthi37/DSA/tree/master/0974-subarray-sums-divisible-by-k) |
+| [1043-partition-array-for-maximum-sum](https://github.com/kushagraawasthi37/DSA/tree/master/1043-partition-array-for-maximum-sum) |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/kushagraawasthi37/DSA/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1584-min-cost-to-connect-all-points](https://github.com/kushagraawasthi37/DSA/tree/master/1584-min-cost-to-connect-all-points) |
 | [2364-count-number-of-bad-pairs](https://github.com/kushagraawasthi37/DSA/tree/master/2364-count-number-of-bad-pairs) |
@@ -148,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/kushagraawasthi37/DSA/tree/master/0062-unique-paths) |
 | [0300-longest-increasing-subsequence](https://github.com/kushagraawasthi37/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0898-bitwise-ors-of-subarrays](https://github.com/kushagraawasthi37/DSA/tree/master/0898-bitwise-ors-of-subarrays) |
+| [1043-partition-array-for-maximum-sum](https://github.com/kushagraawasthi37/DSA/tree/master/1043-partition-array-for-maximum-sum) |
 | [2787-ways-to-express-an-integer-as-sum-of-powers](https://github.com/kushagraawasthi37/DSA/tree/master/2787-ways-to-express-an-integer-as-sum-of-powers) |
 | [3599-partition-array-to-minimize-xor](https://github.com/kushagraawasthi37/DSA/tree/master/3599-partition-array-to-minimize-xor) |
 ## Bit Manipulation
