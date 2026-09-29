@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0974-subarray-sums-divisible-by-k](https://github.com/kushagraawasthi37/DSA/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1043-partition-array-for-maximum-sum](https://github.com/kushagraawasthi37/DSA/tree/master/1043-partition-array-for-maximum-sum) |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/kushagraawasthi37/DSA/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/kushagraawasthi37/DSA/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1584-min-cost-to-connect-all-points](https://github.com/kushagraawasthi37/DSA/tree/master/1584-min-cost-to-connect-all-points) |
 | [2364-count-number-of-bad-pairs](https://github.com/kushagraawasthi37/DSA/tree/master/2364-count-number-of-bad-pairs) |
 | [2368-reachable-nodes-with-restrictions](https://github.com/kushagraawasthi37/DSA/tree/master/2368-reachable-nodes-with-restrictions) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0846-hand-of-straights](https://github.com/kushagraawasthi37/DSA/tree/master/0846-hand-of-straights) |
 | [0857-minimum-cost-to-hire-k-workers](https://github.com/kushagraawasthi37/DSA/tree/master/0857-minimum-cost-to-hire-k-workers) |
 | [1096-brace-expansion-ii](https://github.com/kushagraawasthi37/DSA/tree/master/1096-brace-expansion-ii) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/kushagraawasthi37/DSA/tree/master/1547-minimum-cost-to-cut-a-stick) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -156,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0813-largest-sum-of-averages](https://github.com/kushagraawasthi37/DSA/tree/master/0813-largest-sum-of-averages) |
 | [0898-bitwise-ors-of-subarrays](https://github.com/kushagraawasthi37/DSA/tree/master/0898-bitwise-ors-of-subarrays) |
 | [1043-partition-array-for-maximum-sum](https://github.com/kushagraawasthi37/DSA/tree/master/1043-partition-array-for-maximum-sum) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/kushagraawasthi37/DSA/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [2787-ways-to-express-an-integer-as-sum-of-powers](https://github.com/kushagraawasthi37/DSA/tree/master/2787-ways-to-express-an-integer-as-sum-of-powers) |
 | [3599-partition-array-to-minimize-xor](https://github.com/kushagraawasthi37/DSA/tree/master/3599-partition-array-to-minimize-xor) |
 ## Bit Manipulation
