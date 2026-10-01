@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2368-reachable-nodes-with-restrictions](https://github.com/kushagraawasthi37/DSA/tree/master/2368-reachable-nodes-with-restrictions) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/kushagraawasthi37/DSA/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 | [3599-partition-array-to-minimize-xor](https://github.com/kushagraawasthi37/DSA/tree/master/3599-partition-array-to-minimize-xor) |
+| [3620-network-recovery-pathways](https://github.com/kushagraawasthi37/DSA/tree/master/3620-network-recovery-pathways) |
 ## Greedy
 |  |
 | ------- |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kushagraawasthi37/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0857-minimum-cost-to-hire-k-workers](https://github.com/kushagraawasthi37/DSA/tree/master/0857-minimum-cost-to-hire-k-workers) |
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/kushagraawasthi37/DSA/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [3620-network-recovery-pathways](https://github.com/kushagraawasthi37/DSA/tree/master/3620-network-recovery-pathways) |
 ## Linked List
 |  |
 | ------- |
@@ -134,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0731-my-calendar-ii](https://github.com/kushagraawasthi37/DSA/tree/master/0731-my-calendar-ii) |
 | [0981-time-based-key-value-store](https://github.com/kushagraawasthi37/DSA/tree/master/0981-time-based-key-value-store) |
 | [1044-longest-duplicate-substring](https://github.com/kushagraawasthi37/DSA/tree/master/1044-longest-duplicate-substring) |
+| [3620-network-recovery-pathways](https://github.com/kushagraawasthi37/DSA/tree/master/3620-network-recovery-pathways) |
 ## Matrix
 |  |
 | ------- |
@@ -165,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/kushagraawasthi37/DSA/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [2787-ways-to-express-an-integer-as-sum-of-powers](https://github.com/kushagraawasthi37/DSA/tree/master/2787-ways-to-express-an-integer-as-sum-of-powers) |
 | [3599-partition-array-to-minimize-xor](https://github.com/kushagraawasthi37/DSA/tree/master/3599-partition-array-to-minimize-xor) |
+| [3620-network-recovery-pathways](https://github.com/kushagraawasthi37/DSA/tree/master/3620-network-recovery-pathways) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -269,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1584-min-cost-to-connect-all-points](https://github.com/kushagraawasthi37/DSA/tree/master/1584-min-cost-to-connect-all-points) |
 | [2368-reachable-nodes-with-restrictions](https://github.com/kushagraawasthi37/DSA/tree/master/2368-reachable-nodes-with-restrictions) |
+| [3620-network-recovery-pathways](https://github.com/kushagraawasthi37/DSA/tree/master/3620-network-recovery-pathways) |
 ## Data Stream
 |  |
 | ------- |
@@ -343,4 +348,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/kushagraawasthi37/DSA/tree/master/0020-valid-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/kushagraawasthi37/DSA/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
+## Topological Sort
+|  |
+| ------- |
+| [3620-network-recovery-pathways](https://github.com/kushagraawasthi37/DSA/tree/master/3620-network-recovery-pathways) |
+## Shortest Path
+|  |
+| ------- |
+| [3620-network-recovery-pathways](https://github.com/kushagraawasthi37/DSA/tree/master/3620-network-recovery-pathways) |
 <!---LeetCode Topics End-->
