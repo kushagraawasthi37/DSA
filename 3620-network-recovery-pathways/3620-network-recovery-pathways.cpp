@@ -20,7 +20,7 @@ public:
             long long currCost = curr.first;
             int node = curr.second;
 
-            if(currCost > dist[node]) continue;
+            // if(currCost > dist[node]) continue;
 
             for(auto &nxt : adj[node]){
                 int nxtNode = nxt.first;
