@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/kushagraawasthi37/DSA/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/kushagraawasthi37/DSA/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/kushagraawasthi37/DSA/tree/master/0022-generate-parentheses) |
 | [0076-minimum-window-substring](https://github.com/kushagraawasthi37/DSA/tree/master/0076-minimum-window-substring) |
 | [0981-time-based-key-value-store](https://github.com/kushagraawasthi37/DSA/tree/master/0981-time-based-key-value-store) |
 | [1044-longest-duplicate-substring](https://github.com/kushagraawasthi37/DSA/tree/master/1044-longest-duplicate-substring) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/kushagraawasthi37/DSA/tree/master/0005-longest-palindromic-substring) |
+| [0022-generate-parentheses](https://github.com/kushagraawasthi37/DSA/tree/master/0022-generate-parentheses) |
 | [0062-unique-paths](https://github.com/kushagraawasthi37/DSA/tree/master/0062-unique-paths) |
 | [0300-longest-increasing-subsequence](https://github.com/kushagraawasthi37/DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/kushagraawasthi37/DSA/tree/master/0410-split-array-largest-sum) |
@@ -297,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/kushagraawasthi37/DSA/tree/master/0022-generate-parentheses) |
 | [0113-path-sum-ii](https://github.com/kushagraawasthi37/DSA/tree/master/0113-path-sum-ii) |
 | [1096-brace-expansion-ii](https://github.com/kushagraawasthi37/DSA/tree/master/1096-brace-expansion-ii) |
 ## Minimum Spanning Tree
@@ -347,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/kushagraawasthi37/DSA/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/kushagraawasthi37/DSA/tree/master/0022-generate-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/kushagraawasthi37/DSA/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 ## Topological Sort
 |  |
