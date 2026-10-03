@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/kushagraawasthi37/DSA/tree/master/0004-median-of-two-sorted-arrays) |
+| [0014-longest-common-prefix](https://github.com/kushagraawasthi37/DSA/tree/master/0014-longest-common-prefix) |
 | [0056-merge-intervals](https://github.com/kushagraawasthi37/DSA/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/kushagraawasthi37/DSA/tree/master/0057-insert-interval) |
 | [0219-contains-duplicate-ii](https://github.com/kushagraawasthi37/DSA/tree/master/0219-contains-duplicate-ii) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/kushagraawasthi37/DSA/tree/master/0005-longest-palindromic-substring) |
+| [0014-longest-common-prefix](https://github.com/kushagraawasthi37/DSA/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/kushagraawasthi37/DSA/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/kushagraawasthi37/DSA/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/kushagraawasthi37/DSA/tree/master/0032-longest-valid-parentheses) |
@@ -388,4 +390,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/kushagraawasthi37/DSA/tree/master/0347-top-k-frequent-elements) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/kushagraawasthi37/DSA/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
