@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0173-binary-search-tree-iterator](https://github.com/kushagraawasthi37/DSA/tree/master/0173-binary-search-tree-iterator) |
 | [1096-brace-expansion-ii](https://github.com/kushagraawasthi37/DSA/tree/master/1096-brace-expansion-ii) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/kushagraawasthi37/DSA/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/kushagraawasthi37/DSA/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/kushagraawasthi37/DSA/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [2296-design-a-text-editor](https://github.com/kushagraawasthi37/DSA/tree/master/2296-design-a-text-editor) |
 | [2487-remove-nodes-from-linked-list](https://github.com/kushagraawasthi37/DSA/tree/master/2487-remove-nodes-from-linked-list) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1044-longest-duplicate-substring](https://github.com/kushagraawasthi37/DSA/tree/master/1044-longest-duplicate-substring) |
 | [1096-brace-expansion-ii](https://github.com/kushagraawasthi37/DSA/tree/master/1096-brace-expansion-ii) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/kushagraawasthi37/DSA/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/kushagraawasthi37/DSA/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/kushagraawasthi37/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/kushagraawasthi37/DSA/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/kushagraawasthi37/DSA/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
@@ -379,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/kushagraawasthi37/DSA/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/kushagraawasthi37/DSA/tree/master/0032-longest-valid-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/kushagraawasthi37/DSA/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/kushagraawasthi37/DSA/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/kushagraawasthi37/DSA/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Topological Sort
 |  |
