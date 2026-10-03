@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/kushagraawasthi37/DSA/tree/master/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/kushagraawasthi37/DSA/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1584-min-cost-to-connect-all-points](https://github.com/kushagraawasthi37/DSA/tree/master/1584-min-cost-to-connect-all-points) |
+| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/kushagraawasthi37/DSA/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [2364-count-number-of-bad-pairs](https://github.com/kushagraawasthi37/DSA/tree/master/2364-count-number-of-bad-pairs) |
 | [2368-reachable-nodes-with-restrictions](https://github.com/kushagraawasthi37/DSA/tree/master/2368-reachable-nodes-with-restrictions) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/kushagraawasthi37/DSA/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1096-brace-expansion-ii](https://github.com/kushagraawasthi37/DSA/tree/master/1096-brace-expansion-ii) |
 | [1171-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/kushagraawasthi37/DSA/tree/master/1171-remove-zero-sum-consecutive-nodes-from-linked-list) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/kushagraawasthi37/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/kushagraawasthi37/DSA/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [2364-count-number-of-bad-pairs](https://github.com/kushagraawasthi37/DSA/tree/master/2364-count-number-of-bad-pairs) |
 | [2368-reachable-nodes-with-restrictions](https://github.com/kushagraawasthi37/DSA/tree/master/2368-reachable-nodes-with-restrictions) |
 ## Stack
@@ -123,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1096-brace-expansion-ii](https://github.com/kushagraawasthi37/DSA/tree/master/1096-brace-expansion-ii) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/kushagraawasthi37/DSA/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/kushagraawasthi37/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/kushagraawasthi37/DSA/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [2296-design-a-text-editor](https://github.com/kushagraawasthi37/DSA/tree/master/2296-design-a-text-editor) |
 ## Design
 |  |
