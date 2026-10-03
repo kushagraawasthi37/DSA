@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/kushagraawasthi37/DSA/tree/master/0004-median-of-two-sorted-arrays) |
 | [0014-longest-common-prefix](https://github.com/kushagraawasthi37/DSA/tree/master/0014-longest-common-prefix) |
+| [0041-first-missing-positive](https://github.com/kushagraawasthi37/DSA/tree/master/0041-first-missing-positive) |
 | [0056-merge-intervals](https://github.com/kushagraawasthi37/DSA/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/kushagraawasthi37/DSA/tree/master/0057-insert-interval) |
 | [0219-contains-duplicate-ii](https://github.com/kushagraawasthi37/DSA/tree/master/0219-contains-duplicate-ii) |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0041-first-missing-positive](https://github.com/kushagraawasthi37/DSA/tree/master/0041-first-missing-positive) |
 | [0076-minimum-window-substring](https://github.com/kushagraawasthi37/DSA/tree/master/0076-minimum-window-substring) |
 | [0219-contains-duplicate-ii](https://github.com/kushagraawasthi37/DSA/tree/master/0219-contains-duplicate-ii) |
 | [0347-top-k-frequent-elements](https://github.com/kushagraawasthi37/DSA/tree/master/0347-top-k-frequent-elements) |
