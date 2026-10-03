@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0414-third-maximum-number](https://github.com/kushagraawasthi37/DSA/tree/master/0414-third-maximum-number) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/kushagraawasthi37/DSA/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0705-design-hashset](https://github.com/kushagraawasthi37/DSA/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/kushagraawasthi37/DSA/tree/master/0706-design-hashmap) |
 | [0731-my-calendar-ii](https://github.com/kushagraawasthi37/DSA/tree/master/0731-my-calendar-ii) |
 | [0813-largest-sum-of-averages](https://github.com/kushagraawasthi37/DSA/tree/master/0813-largest-sum-of-averages) |
 | [0827-making-a-large-island](https://github.com/kushagraawasthi37/DSA/tree/master/0827-making-a-large-island) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0092-reverse-linked-list-ii](https://github.com/kushagraawasthi37/DSA/tree/master/0092-reverse-linked-list-ii) |
 | [0328-odd-even-linked-list](https://github.com/kushagraawasthi37/DSA/tree/master/0328-odd-even-linked-list) |
 | [0705-design-hashset](https://github.com/kushagraawasthi37/DSA/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/kushagraawasthi37/DSA/tree/master/0706-design-hashmap) |
 | [1171-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/kushagraawasthi37/DSA/tree/master/1171-remove-zero-sum-consecutive-nodes-from-linked-list) |
 | [2296-design-a-text-editor](https://github.com/kushagraawasthi37/DSA/tree/master/2296-design-a-text-editor) |
 | [2487-remove-nodes-from-linked-list](https://github.com/kushagraawasthi37/DSA/tree/master/2487-remove-nodes-from-linked-list) |
@@ -75,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0532-k-diff-pairs-in-an-array](https://github.com/kushagraawasthi37/DSA/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/kushagraawasthi37/DSA/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0705-design-hashset](https://github.com/kushagraawasthi37/DSA/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/kushagraawasthi37/DSA/tree/master/0706-design-hashmap) |
 | [0846-hand-of-straights](https://github.com/kushagraawasthi37/DSA/tree/master/0846-hand-of-straights) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/kushagraawasthi37/DSA/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0981-time-based-key-value-store](https://github.com/kushagraawasthi37/DSA/tree/master/0981-time-based-key-value-store) |
@@ -121,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0173-binary-search-tree-iterator](https://github.com/kushagraawasthi37/DSA/tree/master/0173-binary-search-tree-iterator) |
 | [0295-find-median-from-data-stream](https://github.com/kushagraawasthi37/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0705-design-hashset](https://github.com/kushagraawasthi37/DSA/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/kushagraawasthi37/DSA/tree/master/0706-design-hashmap) |
 | [0731-my-calendar-ii](https://github.com/kushagraawasthi37/DSA/tree/master/0731-my-calendar-ii) |
 | [0981-time-based-key-value-store](https://github.com/kushagraawasthi37/DSA/tree/master/0981-time-based-key-value-store) |
 | [2296-design-a-text-editor](https://github.com/kushagraawasthi37/DSA/tree/master/2296-design-a-text-editor) |
@@ -337,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0705-design-hashset](https://github.com/kushagraawasthi37/DSA/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/kushagraawasthi37/DSA/tree/master/0706-design-hashmap) |
 | [1044-longest-duplicate-substring](https://github.com/kushagraawasthi37/DSA/tree/master/1044-longest-duplicate-substring) |
 ## Suffix Automaton
 |  |
